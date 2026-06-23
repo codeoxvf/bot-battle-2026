@@ -1,0 +1,12 @@
+[project]
+name = "agario-competitor-template"
+version = "0.1.0"
+description = "Starter repository for an Agar.io competition bot"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "agario-kit==2026.1.1",
+]
+
+[tool.uv]
+package = false
