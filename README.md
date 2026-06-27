@@ -34,9 +34,17 @@ uv run simulation 4:bots/my_bot.py
 
 ## Updating during the competition
 
-When the organisers publish a new platform version, update with:
+When a new platform version is published, update your pyproject.toml file with:
 
 ```bash
-uv lock --upgrade-package agario-kit==2026.1.1
+dependencies = [
+  "agario-kit==[new-version]",
+]
+```
+
+and then, in your terminal, run:
+
+```bash
+uv lock --upgrade-package agario-kit==[new-version]
 uv sync
 ```
