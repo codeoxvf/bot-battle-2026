@@ -11,19 +11,19 @@ dependencies = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "agario-kit", specifier = "==2026.1.2" }]
+requires-dist = [{ name = "agario-kit", specifier = "==2026.1.6" }]
 
 [[package]]
 name = "agario-kit"
-version = "2026.1.2"
+version = "2026.1.6"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "dotmap" },
     { name = "pydantic" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/3a/6d/34019c07344c296cfa901090aa153bea1e9d5ceb2d0a2461d38ab44a5eb4/agario_kit-2026.1.2.tar.gz", hash = "sha256:90d194cf715a61c15de34dfa4e71114e915ac3d7cd8f16316c372321176acc0a", size = 40837, upload-time = "2026-06-27T07:14:50.597Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/54/e2/82807d15f3e4e5533e1f14fd465fb1ce3361388acbd91517ca6ed15a8b5e/agario_kit-2026.1.6.tar.gz", hash = "sha256:ac021787baf347c9fc312e3b3ceb262dc3f697b19044d2816cd71a405c70fe86", size = 41302, upload-time = "2026-07-01T05:12:09.126Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/cd/41/ad59cf3ddf315fafbc6348673aba42a9ed330a1ab38baa7fbd26559df9ea/agario_kit-2026.1.2-py3-none-any.whl", hash = "sha256:10ca332ce43f6cb800d6d14095cc35d0968ad9f8b07543494d2c6f58ca6b50e1", size = 53102, upload-time = "2026-06-27T07:14:49.428Z" },
+    { url = "https://files.pythonhosted.org/packages/8a/a1/9f8637b5c81e995a347403ef5f25a61270fbe6c55e57621c4fa406ad0efb/agario_kit-2026.1.6-py3-none-any.whl", hash = "sha256:17635deaacf3406841b5a55f62a70aa1014bbd7a2c17aa1ae72b5c8806117fa9", size = 53654, upload-time = "2026-07-01T05:12:07.817Z" },
 ]
 
 [[package]]

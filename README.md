@@ -11,18 +11,18 @@ uv run interactive 3:bots/my_bot.py
 
 This template installs the published `agario-kit` package from PyPI. The local
 interactive launcher expects `count:path` specs whose counts sum to `n - 1`.
-For the current 4-player game, that means the counts must sum to `3`.
+For the current 8-player game, that means the counts must sum to `7`.
 
 To play manually against example bots instead, run:
 
 ```bash
-uv run interactive 2:bots/my_bot.py 1:bots/other_bot.py
+uv run interactive 2:bots/my_bot.py 5:bots/other_bot.py
 ```
 
 To watch a non-interactive simulation, run:
 
 ```bash
-uv run simulation 4:bots/my_bot.py
+uv run simulation 8:bots/my_bot.py
 ```
 
 ## Writing a bot
