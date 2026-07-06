@@ -8,7 +8,7 @@ Starter repo for a competition bot.
 2. Run these from this folder
 ```bash
 uv sync --upgrade
-uv run interactive 3:bots/my_bot.py
+uv run interactive 7:bots/my_bot.py
 ```
 
 This template installs the published `agario-kit` package from PyPI. The local
