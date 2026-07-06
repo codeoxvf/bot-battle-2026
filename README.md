@@ -3,7 +3,9 @@
 Starter repo for a competition bot.
 
 ## First run
+1. [Install UV](https://docs.astral.sh/uv/getting-started/installation/)
 
+2. Run these from this folder
 ```bash
 uv sync
 uv run interactive 3:bots/my_bot.py
@@ -34,17 +36,10 @@ uv run simulation 8:bots/my_bot.py
 
 ## Updating during the competition
 
-When a new platform version is published, update your pyproject.toml file with:
+We may make changes to the game engine during the event. When a new platform version is published, please run this command to bring your version of the game engine up to date:
 
 ```bash
-dependencies = [
-  "agario-kit==[new-version]",
-]
+uv sync --upgrade
 ```
 
-and then, in your terminal, run:
-
-```bash
-uv lock --upgrade-package agario-kit==[new-version]
-uv sync
-```
+We will send a message on [Discord](https://discord.gg/24We3YWM7e) if this happens.
